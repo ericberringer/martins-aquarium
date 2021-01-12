@@ -12,11 +12,21 @@
 <body>
   <main>
       <div>
-            <header class="header">
-            <img class="logo" src="images/MartinsLogo.png" alt="">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light nav-width">
+        <header class="header">
+              
+              <div class="headerTop">
+                <img class="logo logoTop" src="images/FishPicMartins.png" alt="martins aquarium logo">
+                  <section class="headerComs">                    
+                    <p>Phone: 757-772-6563</p>
+                    <p>Email: martin@martinsaquarium.com</p>
+                    <input type="text" class="searchBar" placeholder="Search">  
+                  </section>
+                    
+              </div>
+                
+            <nav class="navbar navbar-expand-lg navbar-light nav-width">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="#">|MA|</a>
+                <!-- <a class="navbar-brand" href="#">|MA|</a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,10 +36,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Fish</a>
+                        <a class="nav-link" href="#fishLink">Fish</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Locations</a>
+                        <a class="nav-link" href="#quotesLink">Quotes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#locationsLink">Locations</a>
                     </li>
                     </ul>
                 </div>
@@ -40,31 +53,28 @@
 
     <section class="contentContainer">
         <aside class="containerRight">
-            <ul>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-                <li>Just the tips go here</li>
-            </ul>
+          <h4>Helpful Tips</h4>
+            <ol>
+                <li>Save Your Money</li>
+                <li>Fish are not good substitutes for human friends</li>
+                <li>These fish are NOT good for making artisanal tacos </li>
+                <li>Taquartiumts are expensive </li>
+                <li>Fish are a surveillance apparatus of the United States Government </li>                
+                <li>Painting with all the colors of the wind is not a thing</li>                
+                <li>Birds are ALSO a surveillance apparatus of the United States Government</li>                
+            </ol>
         
         </aside>
+        
       <div class="containerLeft">
         
         <article class="containerLeft__fishList contentArticle">
+          <a id="fishLink"></a>
           
-          <div class="fishCard">
-            
-            <div class="card" style="width: 18rem;">
+          <div class="fishCards">
+            <div class="card" style="width: 14rem;">
               <img class="card-img-top" src="images/Nemo_Maybe.png" alt="Card image cap">
-              <div class="card-body">
+              <div class="cardBodyFish">
                 <p class="fishCard__name">Name: Nemo</p>
                 <p class="fishCard__species">Species: Amphiprioninae</p>
                 <p class="fishCard__location">Hometown: Great Barrier Reef, Australia</p>
@@ -73,9 +83,9 @@
               </div>
             </div>
             
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 14rem;">
               <img class="card-img-top" src="images/Nemo_Maybe.png" alt="Card image cap">
-              <div class="card-body">
+              <div class="cardBodyFish">
                 <p class="fishCard__name">Name: Nemo</p>
                 <p class="fishCard__species">Species: Amphiprioninae</p>
                 <p class="fishCard__location">Hometown: Great Barrier Reef, Australia</p>
@@ -84,9 +94,9 @@
               </div>
             </div>
             
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 14rem;">
               <img class="card-img-top" src="images/Nemo_Maybe.png" alt="Card image cap">
-              <div class="card-body">
+              <div class="cardBodyFish">
                 <p class="fishCard__name">Name: Nemo</p>
                 <p class="fishCard__species">Species: Amphiprioninae</p>
                 <p class="fishCard__location">Hometown: Great Barrier Reef, Australia</p>
@@ -95,9 +105,9 @@
               </div>
             </div>
             
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 14rem;">
               <img class="card-img-top" src="images/Nemo_Maybe.png" alt="Card image cap">
-              <div class="card-body">
+              <div class="cardBodyFish">
                 <p class="fishCard__name">Name: Nemo</p>
                 <p class="fishCard__species">Species: Amphiprioninae</p>
                 <p class="fishCard__location">Hometown: Great Barrier Reef, Australia</p>
@@ -106,9 +116,9 @@
               </div>
             </div>
             
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 14rem;">
               <img class="card-img-top" src="images/Nemo_Maybe.png" alt="Card image cap">
-              <div class="card-body">
+              <div class="cardBodyFish">
                 <p class="fishCard__name">Name: Nemo</p>
                 <p class="fishCard__species">Species: Amphiprioninae</p>
                 <p class="fishCard__location">Hometown: Great Barrier Reef, Australia</p>
@@ -117,17 +127,16 @@
               </div>
             </div>
             
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 14rem;">
               <img class="card-img-top" src="images/Nemo_Maybe.png" alt="Card image cap">
-              <div class="card-body">
+              <div class="cardBodyFish">
                 <p class="fishCard__name">Name: Nemo</p>
                 <p class="fishCard__species">Species: Amphiprioninae</p>
                 <p class="fishCard__location">Hometown: Great Barrier Reef, Australia</p>
                 <p class="fishCard__length">Size: Couple Inches</p>
                 <p class="fishCard__diet">Diet: Seafood</p>
               </div>
-            </div>
-          
+            </div>        
           </div>
           
           
@@ -148,36 +157,99 @@
               alt="clownfish swimming"> -->
 
         </article>
+
+        <a id="quotesLink"></a>
         
         <article class="containerLeft__travelQuotes contentArticle">
-            <div class="quoteCard">
-                <h2>Relevant Quotes</h2>
-                <p class="quoteCard__text">quote text</p>
-                <p class="quoteCard__author">author</p>
-                <p class="quoteCard__date">date</p>
+                
+          <div class="card" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">Dirk Diggler</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2002</h6>
+              <p class="card-text">"If you're not moving, you're not going anywhere."</p>
+              <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
             </div>
-
-            <article class="containerLeft__travelLocations contentArticle">
-                <div class="locationCard">
-                    <h2>Travel Locations</h2>
-                    <p class="locationCard__city">city name</p>
-                    <p class="locationCard__country">country name</p>
-                    <p class="locationCard__landmark">image of landmark</p>
-                </div>    
+          </div>
+          
+          <div class="card" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">Dominic DeCoco</h5>
+              <h6 class="card-subtitle mb-2 text-muted">1956</h6>
+              <p class="card-text">"Hitler was a bad guy."</p>
+              <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+          
+          <div class="card" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">Jake from State Farm</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2020</h6>
+              <p class="card-text">"Insurance is good. I am wearing khakis."</p>
+              <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+            
             
         </article>
+
+        <a id="locationsLink"></a>   
+            
+        <article class="containerLeft__travelLocations contentArticle">         
+                
+                <div class="card" style="width: 14rem;">
+                  <img class="card-img-top" src="images/carribbean.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Bermuda</h5>
+                    <p class="card-text">Bermuda is home to a variety of exotic fish.</p>
+                    <a href="#" class="btn btn-primary">Visit Bermuda</a>
+                  </div>
+                </div>    
+                
+                <div class="card" style="width: 14rem;">
+                  <img class="card-img-top" src="images/fiji.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Fiji</h5>
+                    <p class="card-text">Fiji is very far away, they have fish.</p>
+                    <a href="#" class="btn btn-primary">Visit Fiji</a>
+                  </div>
+                </div>    
+                
+                <div class="card" style="width: 14rem;">
+                  <img class="card-img-top" src="images/crete.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Crete</h5>
+                    <p class="card-text">I'll give you $10 if you can tell me where Crete is. They too have fish.</p>
+                    <a href="#" class="btn btn-primary">Visit Crete</a>
+                  </div>
+                </div>    
+                
+                    
+        
+        </article>
+            
 
       </div>
       <aside class="containerRight"></aside>
     </section>
 
     <footer class="footer">
-        <div class="contactContainer">
-                <a href="">Contact</a>
+      
+      <div class="footerCard">
+        <h5 class="card-header">Stay In Touch</h5>
+        <div class="card-body">
+          <!-- <h5 class="card-title">Special title treatment</h5> -->
+          <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+          <a href="#" class="btn btn-secondary">Contact Us</a>
+          <a href="#" class="btn btn-secondary">Social Media</a>
+          <h6 class="copyright">Copyright 2021 Prestige Worldwide</h6>
+
         </div>
-        <div class="socialContainer">
-                <a href="">Social Media</a>
-        </div>
+      </div>
+      <img class="logo logoBottom" src="images/FishPicMartins.png" alt="">
+        
     </footer>
 
   </main>

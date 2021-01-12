@@ -1,33 +1,62 @@
 .header {
+    background-color: teal;
+}
+
+.headerTop {
     display: flex;
+    justify-content: space-between;
+}
+
+.headerComs {
+    margin: 27px 30px 0 0;
+    font-size: 20px;
+    text-align: right;
+}
+
+.searchBar {
+    border: 3px slategray solid;
+    border-radius: 7px;
+    background-color: #e6e6e6;
 }
 
 .nav-width {
     width: 100%;
+    border-top: 1px solid #525252;
+    padding-bottom: 20px;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
+.logoTop {
+    width: 35%;
+    height: 35%;
 }
 
 .containerRight {
-    background-color: #67678f;
+    text-align: center;
+    background-color: rgb(0, 146, 146);
     height: auto;
     border-radius: 20px;
-    margin-right: 15px;
+    margin: 10px 20px 0 6px;
     box-shadow: 2px 2px;
+    padding: 20px 0 0 0;
+    max-width: 350px;
 }
+
+li {
+    padding: 20px 8px 0 0;
+    text-align: left;
+}
+
 
 body {
     background-image: url(../images/aquariumBG.png);
+    background-size: cover;
+    background-position: center;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     background-color: #67678f;
-    text-align: center;
 }
 
 
@@ -47,38 +76,76 @@ img {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 2px dotted green;
+    /* border: 2px dotted green; */
 }
 
+
+.containerLeft__fishList {
+    /* border: dotted purple 3px; */
+    width: 100%;
+} 
+
+.fishCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardBodyFish {
+    padding-left: 10px;
+}
+
+.containerLeft__travelQuotes {
+    /* border: 2px dotted aqua; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerLeft__travelLocations {
+    /* border: 2px dotted red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 .card {
-    border-radius: 20px;
+    border-radius: 5px;
     margin: 10px 0;
     box-shadow: 2px 2px;
 }
 
-.containerLeft__fishList {
-    border: dotted purple 3px;
-    width: 100%;
-    display: flex; 
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-} 
+.card:hover {
+    background-color: #a8c6e3;
+}
 
 .quoteCard {
-    margin-top: 15px;
+    margin: 5px;
     text-align: center;
+    border: 2px black dotted;
+    width: 100%;
+
 }
 
-.locationCard {
-    margin-top: 15px;
-    text-align: center;
-}
+
 
 footer {
-    text-align: center;
-    background-color: #7d7d8b;
+    background-color: rgb(0, 146, 146);
     display: flex;
-    justify-content: space-evenly;
-    padding: 15px 0;
+    text-align: center;
+}
+
+.footerCard {
+    width: 100%;
+    border-right: 1px solid #363636;
+}
+
+.logoBottom {
+    margin: 40px 10px 0 10px;
+    width: 10%;
+    height: 10%;
+}
+
+.copyright {
+    margin: 10px 0 0 0;
+    color: rgb(99, 99, 99);
+    font-size: small;
 }
