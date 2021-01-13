@@ -6,5 +6,5 @@ const fishCollection = {
     size: "1 Foot"
 }
 
-
-// name, species, hometown, size, diet
+export const useFish = () => {
+    return fishCollection.slice()
