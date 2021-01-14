@@ -60,11 +60,12 @@ header {
 }
 
 
-
-img {
+.fish__image {
+    border: blueviolet dotted 5px;
     width: 20%;
     height: auto;
 }
+
 
 .contentContainer {
     display: flex;
@@ -73,7 +74,7 @@ img {
 }
 
 .containerLeft {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     border: 2px dotted green;
@@ -81,25 +82,23 @@ img {
 
 
 .containerLeft__fishList {
-    border: dotted purple 3px;
-    width: 100%;
+    border: dotted purple 5px;
+    /* width: 100%; */
 } 
 
 .fishList {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .fishCard {
-    border: dotted 2px orangered;
+    border: dotted 5px orangered;
+    text-align: center;
     width: 50%;
 }
 
-.fishCard__imageDiv {
-    border: blueviolet dotted 2px;
-}
 
 
 /* 

@@ -21,7 +21,7 @@ const fishCollection = [
         diet: "Curstaceans",
         hometown: "Rio de Janeiro",
         size: "1 Foot",
-        image: ""
+        image: "../images/Nemo_Maybe.png"
     },
     {
         name: "Skinny",
@@ -29,7 +29,7 @@ const fishCollection = [
         diet: "Curstaceans",
         hometown: "Rio de Janeiro",
         size: "1 Foot",
-        image: ""
+        image: "../images/Nemo_Maybe.png"
     },
     {
         name: "Largo",
@@ -37,7 +37,7 @@ const fishCollection = [
         diet: "Curstaceans",
         hometown: "Rio de Janeiro",
         size: "1 Foot",
-        image: ""
+        image: "../images/Nemo_Maybe.png"
     },
    
 ]
