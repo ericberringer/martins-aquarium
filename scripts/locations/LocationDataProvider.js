@@ -15,3 +15,7 @@ const locationCollection = [
         quote: "Insurance is good. I am wearing khakis."
     },
 ]
+
+export const useLocation = () => {
+    return locationCollection.slice()
+}
