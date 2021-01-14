@@ -76,24 +76,42 @@ img {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* border: 2px dotted green; */
+    border: 2px dotted green;
 }
 
 
 .containerLeft__fishList {
-    /* border: dotted purple 3px; */
+    border: dotted purple 3px;
     width: 100%;
 } 
 
-.fishCards {
+.fishList {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
 }
 
-.cardBodyFish {
-    padding-left: 10px;
+.fishCard {
+    border: dotted 2px orangered;
+    width: 50%;
 }
+
+.fishCard__imageDiv {
+    border: blueviolet dotted 2px;
+}
+
+
+/* 
+.fishCards {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* .cardBodyFish {
+    padding-left: 10px;
+} */
+
 
 .containerLeft__travelQuotes {
     /* border: 2px dotted aqua; */
@@ -102,11 +120,15 @@ img {
 }
 
 .containerLeft__travelLocations {
-    /* border: 2px dotted red; */
+    
+}
+
+.locationList {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 .card {
     border-radius: 5px;
     margin: 10px 0;
