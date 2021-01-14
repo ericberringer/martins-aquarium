@@ -1,19 +1,20 @@
 const locationCollection = [
     {
-       author: "Dirk Diggler",
-       year: "2002",
-        quote: "If you're not moving, you're not going anywhere."
+       image: "../images/carribbean.jpeg",
+       place: "Bermuda",
+       subtitle: "Bermuda is home to a variety of exotic fish."
     },
     {
-       author: "Dominic DeCoco",
-       year: "1956",
-        quote: "Hitler was a bad guy."
+       image: "../images/fiji.jpg",
+       place: "Fiji",
+       subtitle: "Fiji is very far away, they have fish."
     },
     {
-       author: "Jack from Stare Farm",
-       year: "2020",
-        quote: "Insurance is good. I am wearing khakis."
+       image: "../images/crete.jpg",
+       place: "Crete",
+       subtitle: "I'll give you $10 if you can tell me where Crete is. They too have fish."
     },
+    
 ]
 
 export const useLocation = () => {
