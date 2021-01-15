@@ -5,6 +5,7 @@ import { LocationList } from './locations/LocationList.js'
 import { useQuote } from './quotes/QuoteDataProvider.js'
 import { QuoteList } from './quotes/QuoteList.js'
 
+
 const quoteArray = useQuote()
 const locationArray = useLocation()
 // const allTheFish = useFish()
