@@ -47,42 +47,44 @@ export const useFish = () => {
 }
 
 
-// export const mostHolyFish = () => {
-//     // 3, 6, 9, 12, etc... fish
-//     const holyFish = []
+export const mostHolyFish = () => {
 
-//     for (const angels of fishCollection) {
-//         if (angels.length % 3 === 0) {
-//             holyFish.push(angels)
-//     }
+    const holyFish = []
 
-//     return holyFish
-// }
+    for (const fishObject of fishCollection) {
+        if (fishObject.length % 3 === 0) {
+            holyFish.push(fishObject)
+    }
+    }
 
-// export const soldierFish = () => {
-//     // 5, 10, 15, 20, 25, etc... fish
-//     const soldierFish = []
+    return holyFish 
+}
 
-//     for (const soldiers of fishCollection) {
-//         if (soldiers.length % 5 === 0) {
-//         soldierFish.push(soldiers)
-//     }
+export const soldierFish = () => {
 
-//     return soldiers
-// }
+    const soldiers = []
 
-// export const nonHolyFish = () => {
-//     // Any fish not a multiple of 3 or 5
-//     const nonHolyFish = []
+    for (const fishObject of fishCollection) {
+        if (fishObject.length % 5 === 0) {
+        soldiers.push(fishObject)
+    }
+}
 
-//     for (const regularFish of fishCollection) {
-//         if (regularFish.length % 3 !== 0 && regularFishFish.length % 5 !== 0) {
-//         nonHolyFish.push(regularFish)
-//     }
-// }
+    return soldiers
+}
 
-//     return regularFish
-// }
+export const nonHolyFish = () => {
+    // Any fish not a multiple of 3 or 5
+    const regularFish = []
+
+    for (const fishObject of fishCollection) {
+        if (fishObject.length % 3 !== 0 && fishObject.length % 5 !== 0) {
+        regularFish.push(fishObject)
+    }
+}
+
+    return regularFish
+}
 
 
 
