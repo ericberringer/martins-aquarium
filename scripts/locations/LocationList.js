@@ -6,10 +6,11 @@ export const LocationList = () => {
     const locations = useLocation()
 
     let locationHTMLRepresentation = ""
-    for(const location of locations) 
+    for(const location of locations) {
+        locationHTMLRepresentation += Locations(location)
+    }
 
 
-    locationHTMLRepresentation += Locations(location)
     contentElement.innerHTML += `
     <article class="locationList">
         ${locationHTMLRepresentation}
